@@ -106,4 +106,17 @@
 // }
 
 
-
+let car = 'lada'
+switch (car) {
+    case "bmw":
+    case "mers":
+        console.log('germany')
+        break
+    case "lada":
+    case "niva":
+        console.log('russia')
+        break
+    case "hunday":
+    case "honda":
+        console.log('korea')
+}
